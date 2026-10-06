@@ -7,6 +7,5 @@ for i in range(10):
     if computer_ans > user_ans:
         print("Your answer is too low.")
     if computer_ans == user_ans:
-        print("You win!")
-        sys.exit()
+        exit("You win!")
 print("You lose!")
