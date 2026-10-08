@@ -1,7 +1,3 @@
-
-
 for i in range (1,4):
     j=0
-    for j in range(1,4):
-        print(f"({i},{j})")
-    print()
+    print(f"({j},{i}) ({j+1},{i+1}) ({j+2},{i+2})")
